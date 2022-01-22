@@ -28,7 +28,7 @@ const MapChart = ({ setTooltipContent }) => {
                   key={geo.rsmKey}
                   geography={geo}
                   onMouseEnter={() => {
-                    const { NAME } = geo.properties;
+                    const NAME = geo.properties.continent;
                     setTooltipContent(`${NAME}`);
                   }}
                   onMouseLeave={() => {
