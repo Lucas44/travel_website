@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 const Header = ({ title, color }) => {
     return (
-        <h1 style={{backgroundColor: color}}>{title}</h1>
+        <h1 className='header' style={{color: color}}>{title}</h1>
     )
 }
 

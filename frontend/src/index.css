@@ -25,7 +25,7 @@
   }
 
   html {
-    font-family: system-ui, sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 1.25rem;
   }
   
@@ -38,3 +38,19 @@
     display: inline-block;
     vertical-align: middle;
   }
+
+.header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

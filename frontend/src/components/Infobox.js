@@ -2,9 +2,10 @@ import PropTypes from 'prop-types'
 
 const Infobox = ({ text, color }) => {
     return (
-        <div>
-            <h2 style={{ color: color }}>{text}</h2>
-
+        <div class='textbox' style={{ color: color }}>
+            <h3>{text}</h3>
+            <br/>
+            <p>The covid pandemic has had a devastating effect on the global tourism sector. </p>
         </div>
     )
 }
