@@ -12,7 +12,7 @@ const MapChart = ({ setTooltipContent }) => {
   let navigate = useNavigate();
   return (
     <>
-      <ComposableMap data-tip="" projectionConfig={{ scale: 150 }}>
+      <ComposableMap data-tip="" projectionConfig={{ scale: 180 }}>
           <Geographies geography={geoUrl}>
             {({ geographies }) =>
               geographies.map(geo => (
