@@ -8,8 +8,8 @@ import "../index.css";
 function Home() {
   const [content, setContent] = useState("");
   return (<div> 
+    <Header />
     <div className='container'>
-      <Header title='Travel Website'/>
       <Infobox />
       <MapChart setTooltipContent={setContent} />
       <ReactTooltip>{content}</ReactTooltip>

@@ -7,9 +7,13 @@ import NorthAmerica from './pages/North%20America';
 import Oceania from './pages/Oceania';
 import SouthAmerica from './pages/South%20America';
 import Error from './pages/Error';
+import Navbar from "./components/Navbar";
+import Listofinfo from './pages/Listofinfo';
+import About from './pages/About';
 
 function App() {
-  return <Router>
+  return (<Router>
+    <Navbar/>
     <Routes>
       <Route path="/" element={<Home />}/> 
       <Route path="/Europe" element={<Europe />}/> 
@@ -17,9 +21,12 @@ function App() {
       <Route path="/Asia" element={<Asia />}/> 
       <Route path="/North%20America" element={<NorthAmerica />}/>
       <Route path="/Oceania" element={<Oceania />}/> 
-      <Route path="/South%20America" element={<SouthAmerica />}/> 
+      <Route path="/South%20America" element={<SouthAmerica />}/>
+      <Route path="/listofinfo" element={<Listofinfo />}/>
+      <Route path="/About" element={<About />} />
       <Route path="*" element={<Error />}/> 
     </Routes>
-    </Router>;}
+    </Router>)
+    ;}
 
 export default App;

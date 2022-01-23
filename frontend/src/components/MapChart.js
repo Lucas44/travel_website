@@ -29,15 +29,15 @@ const MapChart = ({ setTooltipContent }) => {
                   onClick={() => {navigate("/"+ geo.properties.continent)}}
                   style={{
                     default: {
-                      fill: "#D6D6DA",
+                      fill: "#d3d3d3",
                       outline: "none"
                     },
                     hover: {
-                      fill: "#F53",
+                      fill: "#349ceb",
                       outline: "none"
                     },
                     pressed: {
-                      fill: "#E42",
+                      fill: "#00008B",
                       outline: "none"   
                     }
                   }}

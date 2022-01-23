@@ -1,27 +1,23 @@
 import PropTypes from 'prop-types'
 
-const Infobox = ({ text, color }) => {
+const Infobox = ({ text }) => {
     return (
-        <div class='textbox' style={{ color: color }}>
+        <div class='textbox'>
             <h3>{text}</h3>
             <br/>
-            <p>The covid pandemic has had a devastating effect on the global tourism sector. According to a United Nations report,
-                incoming tourism levels dropped between 60% and 80% in 2020, and only partially recovered in 2021. <br/> With this in mind,
-                we hope this project will help users combine their desire to rediscover the world with an awareness of the positive (and
-                negative) effects their actions might have on local communities. Explore the map below to learn more about how you can help
-                revitalize tourism-dependent economies across the world.
+            <p>The Covid-19 pandemic has had a devastating effect on the global tourism sector. According to a United Nations report,
+                incoming tourism levels dropped between 60% and 80% worldwide in 2020, and only partially recovered in 2021.
             </p>
+            <p> We hope this project will help you combine your desire to rediscover the world with an awareness of the benefits of
+                sustainable tourism. Explore the map below to learn more about how you can help
+                revitalize tourism-dependent economies across the world.</p>
         </div>
     )
 }
 
-Infobox.defaultProps = {
-    color: 'gray'
-}
 
 Infobox.propTypes = {
     text: PropTypes.string,
-    color: PropTypes.string
 }
 
 export default Infobox
