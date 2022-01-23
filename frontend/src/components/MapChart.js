@@ -4,10 +4,12 @@ import {
   Geographies,
   Geography
 } from "react-simple-maps";
+import { useNavigate } from "react-router-dom";
 
 const geoUrl = "https://piwodlaiwo.github.io/topojson//world-continents.json";
 
 const MapChart = ({ setTooltipContent }) => {
+  let navigate = useNavigate();
   return (
     <>
       <ComposableMap data-tip="" projectionConfig={{ scale: 150 }}>
@@ -24,6 +26,7 @@ const MapChart = ({ setTooltipContent }) => {
                   onMouseLeave={() => {
                     setTooltipContent("");
                   }}
+                  onClick={() => {navigate("/"+ geo.properties.continent)}}
                   style={{
                     default: {
                       fill: "#D6D6DA",
@@ -35,7 +38,7 @@ const MapChart = ({ setTooltipContent }) => {
                     },
                     pressed: {
                       fill: "#E42",
-                      outline: "none"
+                      outline: "none"   
                     }
                   }}
                 />
