@@ -1,10 +1,8 @@
 import PropTypes from 'prop-types'
 
-const Infobox = ({ text }) => {
+const Infobox = () => {
     return (
-        <div class='textbox'>
-            <h3>{text}</h3>
-            <br/>
+        <div id='textbox'>
             <p>The Covid-19 pandemic has had a devastating effect on the global tourism sector. According to a United Nations report,
                 incoming tourism levels dropped between 60% and 80% worldwide in 2020, and only partially recovered in 2021.
             </p>

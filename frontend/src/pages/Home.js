@@ -9,8 +9,8 @@ function Home() {
   const [content, setContent] = useState("");
   return (<div> 
     <Header />
+    <Infobox />
     <div className='container'>
-      <Infobox />
       <MapChart setTooltipContent={setContent} />
       <ReactTooltip>{content}</ReactTooltip>
     </div>

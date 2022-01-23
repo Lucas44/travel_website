@@ -8,7 +8,7 @@ const Header = ({ title, color }) => {
 
 Header.defaultProps = {
     title: 'Adventures Abroad',
-    color: '#555555'
+    color: "white"
 }
 
 Header.propTypes = {
