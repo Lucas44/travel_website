@@ -10,6 +10,7 @@ import Error from './pages/Error';
 import Navbar from "./components/Navbar";
 import Listofinfo from './pages/Listofinfo';
 import About from './pages/About';
+import Downbar from './components/Downbar';
 
 function App() {
   return (<Router>
@@ -26,6 +27,7 @@ function App() {
       <Route path="/About" element={<About />} />
       <Route path="*" element={<Error />}/> 
     </Routes>
+    <Downbar />
     </Router>)
     ;}
 

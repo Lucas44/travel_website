@@ -10,6 +10,16 @@
 
   }
 
+  .container2 {
+    max-width: 1000px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 0px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+  }
+
   html {
     font-family: 'Helvetica', sans-serif;
     font-size: 1.25rem;
@@ -57,4 +67,112 @@
 
 .textbox-content {
   font-weight: 70;
+}
+
+#Mauritius {
+  background-image: url('images/ImageMauritius.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Morocco {
+  background-image: url('images/ImageMoroco.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#IvoryCoast {
+  background-image: url('images/ImageIvoryCoast.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Indonesia {
+  background-image: url('images/ImageIndo.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Phillipines {
+  background-image: url('images/ImagePhilipine.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#India {
+  background-image: url('images/ImageIndia.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Spain {
+  background-image: url('images/ImageSpain.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Croatia {
+  background-image: url('images/ImageCroatia.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Montenegro {
+  background-image: url('images/ImageMontenegro.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Fiji {
+  background-image: url('images/ImageFiji.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Samoa {
+  background-image: url('images/ImageSamoa.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Mexico  {
+  background-image: url('images/ImageMexico.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#CostaRica {
+  background-image: url('images/ImageCostaRica.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Jamaica {
+  background-image: url('images/ImageJamaica.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Vanuatu  {
+  background-image: url('images/ImageVanuatu.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Panama {
+  background-image: url('images/ImagePanama.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Argentina {
+  background-image: url('images/ImageArgentine.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
+}
+
+#Peru  {
+  background-image: url('images/ImagePeru.jpg') ;
+  background-size: 100%; 
+  background-position:50% 37%;
 }
