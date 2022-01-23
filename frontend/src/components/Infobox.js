@@ -16,12 +16,11 @@ const Infobox = ({ text, color }) => {
 }
 
 Infobox.defaultProps = {
-    text: 'Travel information will go here',
     color: 'gray'
 }
 
 Infobox.propTypes = {
-    text: PropTypes.string.isRequired,
+    text: PropTypes.string,
     color: PropTypes.string
 }
 

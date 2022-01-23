@@ -10,7 +10,7 @@ function Home() {
   return (<div> 
     <div className='container'>
       <Header title='Travel Website'/>
-      <Infobox text='Travel information will go here'/>
+      <Infobox />
       <MapChart setTooltipContent={setContent} />
       <ReactTooltip>{content}</ReactTooltip>
     </div>
