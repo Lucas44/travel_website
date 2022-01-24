@@ -7,4 +7,4 @@ Demo website built January 21-23, 2022, for the 2022 iteration of McGill Univers
 - @gseym and @Lucas44: Built the interactive map and static markup on the home page
 - @Lucas44: Resolved React tooltip issues, built the home page React components and the About Page, and handled CSS styling across the website
 
-All team members contributed actively to the brainstorming, design, and overall layout of the website\
+All team members contributed actively to the brainstorming, design, and overall layout of the website
